@@ -1,0 +1,39 @@
+
+#iHeader{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#iHeader > div.hide-bgr{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    position: absolute;
+    background-image: url(http://dulichbavi.net/wp-content/uploads/cam-trai-du-lich-hihi.jpg);
+    background-size: 100% 100%;
+}
+
+#iHeader > div.contentHeader{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#iHeader > div.contentHeader > ul.itemContainerMenu {
+    padding: 5px 10px;
+    font-weight: 700;
+    margin-left: 35px;
+}
+#iHeader > div.contentHeader > ul.itemContainerMenu > li{
+    list-style-type: none;
+}
+#iHeader > div.contentHeader > ul.itemContainerMenu > li:hover > a{
+    background: tomato;
+}
+#iHeader > div.contentHeader > ul.itemContainerMenu > li > a{
+    padding: 5px 15px;
+    text-decoration: none;
+}
